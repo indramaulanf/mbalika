@@ -1,0 +1,79 @@
+:root {
+  --bg1: #f5efe7;
+  --color1: #214886;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: var(--bg1);
+}
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 1rem;
+}
+
+.navbar-nav a {
+  color: white;
+  background-color: #05b0b6;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.navbar-nav a:hover {
+  color: var(--color1);
+}
+
+.about {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.about .about-me {
+  text-align: center;
+}
+.about .about-me img {
+  width: 25%;
+  border-radius: 100%;
+}
+.about .about-me h2,
+.about .about-me p {
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-family: "bubik", sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.hero .hero-1 div {
+  display: inline-block;
+  justify-content: first baseline;
+  gap: 4rem;
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0.2rem 0.2rem;
+  border: 2px solid black;
+  border-radius: 80rem;
+}
+.hero .hero-1 div img {
+  width: 15%;
+  border-radius: 100%;
+}
+.hero .hero-1 div a {
+  display: flex;
+  align-items: center;
+}
